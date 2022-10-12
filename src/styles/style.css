@@ -1,7 +1,40 @@
-/** CSS STYLE **/
 
-.hello {
-  display: block;
+html {
+  font-family: 'Neucha', cursive;
+  font-family: 'Open Sans', sans-serif;
+  }
+  .container {
 
-  color: #fff;
+  }
+  .header {
+   background-image: url(background.png);
+  }
+  .header {
+   font-family: 'Neucha';
+   width: 1110px;
+   height: 525px;
+   margin: 100px 0;
+   display: flex;
+   flex-wrap: wrap;
+   flex: 0 1 50%;
+  /* gap: 30px;*/
+
+  }
+  .header h1 {
+    font-size: 72px;
+    line-height: 1.2;
+    width: 50%;
+  }
+  .header img {
+    width: 50%;
+  }
+  .header p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #2A2626;
+    width: 50%;
+  }
+.header span {
+  color: #FE8A02;
 }
+

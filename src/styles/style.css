@@ -24,7 +24,7 @@ html {
    background: url("../images/background.png");
    background-repeat: no-repeat;
    background-size: cover;
-   opacity: 30%;
+   opacity: 10%;
    content: "";
    top: 0;
    left: 0; 
@@ -48,7 +48,7 @@ html {
   }
   .header h1 {
     font-size: 72px;
-    line-height: 1.2;
+    line-height: 1.2em;
     margin: 0;
     
   }
@@ -64,7 +64,7 @@ html {
     gap: 30px;
     font-size: 16px;
     font-family:'Open Sans', sans-serif;
-    line-height: 1.6;
+    line-height: 1.6em;
     color: #2A2626;
     margin-top: 181px;
         
@@ -98,7 +98,7 @@ html {
 
 .main-video h2 {
   font-size: 60px;
-  line-height: 1.2;
+  line-height: 1.2em;
   margin-bottom: 30px;
 }
 .video {
@@ -107,8 +107,7 @@ html {
 
 .main-items {
   font-family: 'Neucha';
-  line-height: 1;
-   
+  line-height: 1;  
   width: 100%;
 }
 .main-items-wrapper {
@@ -122,6 +121,8 @@ html {
 .main-items-h2 {
   font-size: 52px;
   margin: 0;
+  color: #FFFFFF;
+  /*font-weight: 400;*/
 }
 .first {
   font-size: 64px;
@@ -130,26 +131,27 @@ html {
   color: #42413C;
 }
 .main-items-first {
-background: #F5F4F0;
- padding: 24px;
- width: 350px; 
- flex-shrink: 0;
- box-sizing: border-box;
+  background: #F5F4F0;
+  padding: 24px;
+  width: 350px; 
+  flex-shrink: 0;
+  box-sizing: border-box;
 
 }
 .main-items-first:first-child {
-background: none;
-padding: 0;
+  background: none;
+  padding: 0;
 }
 h3 {
   font-size: 34px;
-  line-height: 1.2;
+  line-height: 1.2em;
   color: #FE8A02;
   margin: 0;
 }
+ 
 p {
   font-size: 16px;
-  line-height: 1.6;
+  line-height: 1.6em;
   color: #2A2626;
   font-family: 'Open Sans', sans-serif; 
   margin-top: 0;
@@ -157,25 +159,9 @@ p {
 .main-items-first a {
   text-decoration: none;
 }
-.main-items-ikea-wrapper {
+.indent {
   padding-top: 100px;
   padding-bottom: 100px; 
-}
-.main-items-premature-wrapper {
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-.main-items-novelty-wrapper {
-  padding-top: 100px;
-  padding-bottom: 100px; 
-}
-.main-items-hyperboli-wrapper {
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-.main-items-planning-wrapper {
-  padding-top: 100px;
-  padding-bottom: 100px;
 }
 .main-items-too {
   display: flex;
@@ -184,22 +170,27 @@ p {
 .main-items-too-p {
  column-count: 2; 
  column-gap: 30px;
-  
+ 
+}
+.main-items-premature p,
+.main-items-hyperbolic p {
+  color: #FFFFFF;
 }
 .main-items-too-text {
   font-size: 24px;
-  line-height: 1.2;
+  line-height: 1.2em;
   font-family: 'Neucha', cursive;
 }
 .main-items-too-text-too {
   font-size: 34px;
-  line-height: 1.2;
+  line-height: 1.2em;
   font-family: 'Neucha', cursive;
 }
   h2 {
   font-size: 60px;
-  line-height: 1.2;
+  line-height: 1.2em;
   font-family: 'Neucha', cursive;
+  font-weight: 400;
    
 }
 .main-items-too-img {
@@ -209,43 +200,34 @@ p {
   
 }
 .main-items-ikea h4,
-.main-items-premature h4,
 .main-items-novelty h4,
-.main-items-planning h4,
-.main-items-hyperbolic h4 {
-font-family: 'Open Sans';
-font-weight: 700;
-font-size: 14px;
-line-height: 1.2;
-padding: 20px;
- 
-color: #FFFFFF;
-margin-bottom: 20px;
+.main-items-planning h4{
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2em;
+  padding: 20px;
+  background: #B09A81;
+  color: #FFFFFF;
+  margin-bottom: 20px;
 
 }
+ .white {
+  color: #FFFFFF;
+ }
+ .color {
+  color: #FFFFFF;
+ }
  
-.main-items-three,
-.main-items-three-p,
-.main-items-five,
-.main-items-five-p {
-  column-count: 2;
-  column-gap: 30px; 
-}
-.main-items-three-text,
-.main-items-five-text {
-  color: #FFFFFF;
-}
-.main-items-three-text-too,
-.main-items-five-text-too {
-  color: #FFFFFF;
-}
-.main-items-three h2,
-.main-items-five h2 {
-  color: #FFFFFF;
-}
 .main-items-premature h4,
 .main-items-hyperbolic h4 {
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2em;
+  padding: 20px;
   color:#b09a81;
+  margin-bottom: 20px;
   background: #FFFFFF;
 }
   
@@ -262,7 +244,7 @@ margin-bottom: 20px;
 }
 .footer-mail-br {
   font-size: 34px;
-  line-height: 1.2;
+  line-height: 1.2em;
   font-family: 'Neucha', cursive;
   color: #FFFFFF;
   margin: 0;
@@ -270,7 +252,7 @@ margin-bottom: 20px;
 .footer-mail-p {
   font-family: 'Open Sans';
   font-size: 18px;
-  line-height: 1.6; 
+  line-height: 1.6em; 
   color: #FFFFFF; 
   margin-bottom: 0;
 }
@@ -308,13 +290,16 @@ margin-bottom: 20px;
 }
 .footer-text {
   text-align: center;
-  margin-top: 60px;
-   
+  margin-top: 60px;   
+}
+.footer-text p {
+  font-size: 14px;
+  line-height: 1.6em;
 }
 .footer-text a {
   font-family: 'Open Sans';
   font-size: 14px;
-  line-height: 1.6;
+  line-height: 1.6em;
   color: #1085C5; 
 }
 .footer-mail-a a {

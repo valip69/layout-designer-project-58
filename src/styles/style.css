@@ -6,7 +6,7 @@ body {
   width: 100%;
   max-width: 1440px;
   margin: 0 auto;  
-}  
+} 
 .wrapper {
   width: 100%;
   max-width: 1110px;
@@ -61,13 +61,13 @@ body {
   font-family: "Open Sans", sans-serif;
   line-height: 1.6em;
   color: #2a2626;
-  margin-top: 181px;       
+  margin-top: 185px;     
 }
 .header-text-items {
   flex: 1 0 50%;
 }     
 span {
-  color: #fE8a02;
+  color: #fe8a02;
 }
 .button {
   padding: 12px 24px;
@@ -78,11 +78,11 @@ span {
   background: #fe8a02;
   text-decoration: none;
   display: inline-flex;
-  margin-top: 40px; 
+  margin-top: 28px; 
 }
 .main-video {
   font-family: "Neucha";
-  margin: 100px 0; 
+  margin-top: 100px; 
   position: relative;
   text-align: center;
   margin-bottom: -100px;     
@@ -93,6 +93,7 @@ span {
   margin-bottom: 30px;
 }
 .video {
+  margin-top: 30px;
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 .main-items {
@@ -126,6 +127,12 @@ span {
   flex-shrink: 0;
   box-sizing: border-box;
 }
+.main-items-first-p {
+  font-size: 16px;
+  line-height: 1.6em;
+  color: #2a2626;
+  font-family: "Open Sans", sans-serif;  
+}
 .main-items-first:first-child {
   background: none;
   padding: 0;
@@ -135,13 +142,6 @@ h3 {
   line-height: 1.2em;
   color: #fe8a02;
   margin: 0;
-}
-p {
-  font-size: 16px;
-  line-height: 1.6em;
-  color: #2a2626;
-  font-family: "Open Sans", sans-serif; 
-  margin-top: 0;
 }
 .main-items-first a {
   text-decoration: none;
@@ -154,9 +154,16 @@ p {
   display: flex;
   gap: 30px; 
 }
+.main-p {
+  margin-top: 0;
+}
 .main-items-too-p {
- column-count: 2; 
- column-gap: 30px;
+  column-count: 2; 
+  column-gap: 30px;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.6em;
+  color: #2a2626;   
 }
 .main-items-premature p,
 .main-items-hyperbolic p {
@@ -166,6 +173,7 @@ p {
   font-size: 24px;
   line-height: 1.2em;
   font-family: "Neucha";
+  margin: 0;
 }
 .main-items-too-text-too {
   font-size: 34px;
@@ -176,11 +184,11 @@ h2 {
   font-size: 60px;
   line-height: 1.2em;
   font-family: "Neucha";
-  font-weight: 400;  
+  font-weight: 400; 
+  margin: 0; 
 }
 .main-items-too-img {
   vertical-align: middle;
-  padding-bottom: 100px;
   filter: drop-shadow(0px 16px 32px rgba(0, 0, 0, 15%));  
 }
 .main-items-ikea h4,
@@ -190,10 +198,10 @@ h2 {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.2em;
-  padding: 20px;
+  padding: 5px 10px;
   background: #b09a81;
   color: #fff;
-  margin-bottom: 20px;
+  margin: 100px 0 20px;
 }
  .white {
   color: #fff;
@@ -207,9 +215,9 @@ h2 {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.2em;
-  padding: 20px;
+  padding: 5px 10px;
   color:#b09a81;
-  margin-bottom: 20px;
+  margin: 100px 0 20px;
   background: #fff;
 }  
 .footer-wrapper {

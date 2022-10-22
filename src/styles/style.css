@@ -64,7 +64,7 @@ body {
   margin-top: 185px;     
 }
 .header-text-items {
-  flex: 1 0 50%;
+  flex: 1 0 48%;
 }     
 span {
   color: #fe8a02;
@@ -78,7 +78,7 @@ span {
   background: #fe8a02;
   text-decoration: none;
   display: inline-flex;
-  margin-top: 28px; 
+  margin-top: 20px; 
 }
 .main-video {
   font-family: "Neucha";
@@ -95,6 +95,13 @@ span {
 .video {
   margin-top: 30px;
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+}
+.wrapper-p {
+  font-size: 16px;
+  line-height: 1.6em;
+  color: #2a2626;
+  font-family: "Open Sans", sans-serif;  
+  margin-bottom: 0; 
 }
 .main-items {
   font-family: "Neucha";
@@ -115,6 +122,9 @@ span {
   color: #fff;
 }
 .first {
+  font-family: "Neucha";
+  font-weight: 400;
+  line-height: 1;
   font-size: 64px;
   padding-bottom: 40px;
   margin: 0;
@@ -131,7 +141,8 @@ span {
   font-size: 16px;
   line-height: 1.6em;
   color: #2a2626;
-  font-family: "Open Sans", sans-serif;  
+  font-family: "Open Sans", sans-serif; 
+  margin-bottom: 0; 
 }
 .main-items-first:first-child {
   background: none;
@@ -154,12 +165,16 @@ h3 {
   display: flex;
   gap: 30px; 
 }
-.main-p {
+.main-p,
+.main-pp {
   margin-top: 0;
+  flex: 1 0 48%;
 }
 .main-items-too-p {
-  column-count: 2; 
-  column-gap: 30px;
+  /*column-count: 2; 
+  column-gap: 30px;*/
+  display: flex;
+  gap: 30px;
   font-size: 16px;
   font-family: "Open Sans", sans-serif;
   line-height: 1.6em;
@@ -179,6 +194,7 @@ h3 {
   font-size: 34px;
   line-height: 1.2em;
   font-family: "Neucha";
+  margin-top: 25px;
 }
 h2 {
   font-size: 60px;
@@ -201,7 +217,7 @@ h2 {
   padding: 5px 10px;
   background: #b09a81;
   color: #fff;
-  margin: 100px 0 20px;
+  margin: 97px 0 20px;
 }
  .white {
   color: #fff;
@@ -217,7 +233,7 @@ h2 {
   line-height: 1.2em;
   padding: 5px 10px;
   color:#b09a81;
-  margin: 100px 0 20px;
+  margin: 97px 0 20px;
   background: #fff;
 }  
 .footer-wrapper {

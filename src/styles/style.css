@@ -2,11 +2,13 @@ html {
   font-family: "Neucha";
   font-family: "Open Sans";
 }
+
 body {
   width: 100%;
   max-width: 1440px;
   margin: 0 auto;  
 } 
+
 .wrapper {
   width: 100%;
   max-width: 1110px;
@@ -80,6 +82,7 @@ span {
   display: inline-flex;
   margin-top: 25px; 
 }
+
 .main-video {
   font-family: "Neucha";
   margin-top: 100px; 
@@ -105,6 +108,7 @@ span {
   font-family: "Open Sans";  
   margin-bottom: 0; 
 }
+
 .main-items {
   font-family: "Neucha";
   line-height: 1;  
@@ -159,6 +163,7 @@ h3 {
 .main-items-first a {
   text-decoration: none;
 }
+
 .indent {
   padding-top: 100px;
   padding-bottom: 100px; 
@@ -236,6 +241,7 @@ h2 {
   margin: 97px 0 20px;
   background: #fff;
 }  
+
 .footer-wrapper {
   padding: 100px 0 111px;
 }

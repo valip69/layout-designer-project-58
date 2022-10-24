@@ -17,6 +17,7 @@ body {
 }
 .light {
   position: relative;
+  background-color:#F5F4F0 ;
 }
 .light::before {
   display: block;
